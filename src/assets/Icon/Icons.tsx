@@ -1,0 +1,17 @@
+export function Vgen({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#000000"
+      strokeWidth="1.4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
+      <path d="M12 3.5 C8 3.5 4 6.8 4 11.8 C4 16.8 8 20.5 12.5 20.5 C17 20.5 20 16.8 20 11.8 C20 6.8 16 3.5 12 3.5 Z" />
+      <path d="M8 11 C9.2 13.8 10.2 15.4 11.8 15.4 C13.4 15.4 14.4 12.6 15.6 9.4" />
+    </svg>
+  );
+}
